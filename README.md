@@ -16,3 +16,4 @@ We'll need to decide as a team:
 - How state-space/linear models should look when used by the various controllers)
   - Consistent inputs and outputs of models w.r.t. controllers, cost functions and optimizers (we could use openmdao to be consistent with other WEIS teams)
 - A roadmap for future development, who works on which parts of the repo, etc.
+  - IDEA: keep NREL, UIUC, CSU repos separate for now and combine as submodules within this repository when ready so that we can leverage existing repositories, like WISDEM, matlab-toolbox, dt-qp-project, e.g.
